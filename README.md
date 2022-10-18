@@ -1,4 +1,4 @@
-# Full stack Code Interview
+# FullStack Node + ReactJS Interview
 
 ## Run the client
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -14,15 +14,14 @@ cd server
 ```
 You will create your own way to run your Node.js server, [don't forget to have Node.js installed](https://nodejs.org/en/).
 
-
-# FullStack Node + ReactJS Interview Instructions
+# Instructions
 
 ### Front-end
 
 I. Create a Rating component. The Rating component consists of 5 stars. Each star is represented by a span element. The component should render to this HTML code:
 
 ```html
-<div id='rating'>
+<div class='StarRating'>
   <span>*</span>
   <span>*</span>
   <span>*</span>
@@ -36,7 +35,7 @@ When a span element is clicked, the active class should be added to that span el
 For example, after the third span element has been clicked, the HTML code should look like this:
 
 ```html
-<div id='rating'>
+<div class='StarRating'>
   <span class="active">*</span>
   <span class="active">*</span>
   <span class="active">*</span>
