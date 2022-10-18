@@ -44,7 +44,7 @@ For example, after the third span element has been clicked, the HTML code should
 </div>
 ```
 
-Active starts must be color yellow, the rest must not.
+Spans with class `active` must be color `yellow`, the rest must not.
 
 ### Back-end
 
