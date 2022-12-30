@@ -18,7 +18,11 @@ You will create your own way to run your Node.js server, [don't forget to have N
 
 ### Front-end
 
-I. Create a Rating component. The Rating component consists of 5 stars. Each star is represented by a span element. The component should render to this HTML code:
+I. Create a Rating component. The Rating component consists of `n` stars (let's start with 5 stars, for instance) Each star is represented by a span element. The component should render to this HTML code:
+
+```jsx
+<StarRating of={5} />
+```
 
 ```html
 <div class='StarRating'>
